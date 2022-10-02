@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author godim
+ * @author talleo
  */
 public class Note implements Serializable {
     private String title;
