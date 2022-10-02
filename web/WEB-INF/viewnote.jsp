@@ -6,12 +6,12 @@
         <title>Simple Note Keeper</title>
     </head>
     <body>
-        <h1>Simple Note Keeper</h1><br>
-        <h2>View Note</h2><br>
-        <h3>Title:</h3>
-        <p>${note.title}</p><br>
-        <h3>Contents:</h3><br>
-        <p>${note.content}</p><br>
+        <h1>Simple Note Keeper</h1>
+        <h2>View Note</h2>
+        <p><b>Title:</b>
+        ${note.title}</p>
+        <p><b>Contents:</b><br>
+        ${note.content}</p>
         <a href="note?edit">Edit</a>
     </body>
 </html>
