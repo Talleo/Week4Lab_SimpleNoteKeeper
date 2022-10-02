@@ -16,6 +16,8 @@ public class Note implements Serializable {
      * public no-arg constructor
      */
     public Note() {
+        this.title = "";
+        this.content = "";
     }
 
     /**
